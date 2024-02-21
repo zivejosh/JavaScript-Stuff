@@ -1,0 +1,21 @@
+{
+    "manifest_version": 3,
+    "name": "Timer Extension",
+    "version": "1.0.0",
+    "description": "Hello Chrome World!",
+    "icons": {
+        "16": "clock-icon.png",
+        "48": "clock-icon.png",
+        "128": "clock-icon.png"
+    },
+
+    "action": {
+        "default_icon": {
+            "16": "clock-icon.png",
+            "24": "clock-icon.png",
+            "32": "clock-icon.png"
+        },
+        "default_tile": "Click Me!",
+        "default_popup": "popup.html"
+    }
+}
